@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<category>
+    <pattern>* restaurants *</pattern>
+    <template> Aimez vous les burgers</template>
+  </category>
+
+<category>
+        <pattern>Oui</pattern>
+        <that> Aimez vous les burgers</that>
+        <template>Moi aussi, et voici mes restaurants préférés qui font du burger à Paris : PARIS NEW YORK Faubourg Saint-Denis, Blend Hamburger ARGOUT, b et m Burger</template>
+     </category>
+
+     <category>
+                <pattern>Oui *</pattern>
+                  <that> Aimez vous les burgers</that>
+                  <template>Moi aussi, et voici mes restaurants préférés qui font du burger à Paris : PARIS NEW YORK Faubourg Saint-Denis, Blend Hamburger ARGOUT, b et m Burger</template>
+               </category>
+
+
+     <category>
+             <pattern>Non</pattern>
+             <that>Aimez vous les burgers</that>
+             <template>Peut être que vous aimez les plats français</template>
+          </category>
+
+     <category>
+                  <pattern>Non *</pattern>
+                  <that>Aimez vous les burgers</that>
+                  <template>Peut être que vous aimez les plats français</template>
+               </category>
+
+     <category>
+                   <pattern>Oui</pattern>
+                   <that>Peut être que vous aimez les plats français</that>
+                   <template>Moi aussi, j'adore les plats français et voici mes restaurants préférés qui font du burger à Paris : LE CLARENCE, Jules Verne, le Cinq Restaurant</template>
+                    </category>
+
+     <category>
+                      <pattern>Oui *</pattern>
+                     <that>Peut être que vous aimez les plats français</that>
+                     <template>Moi aussi, j'adore les plats français et voici mes restaurants préférés qui font du burger à Paris : LE CLARENCE, Jules Verne, le Cinq Restaurant</template>
+                     </category>
+
+     <category>
+                       <pattern>Non</pattern>
+                       <that>Peut être que vous aimez les plats français</that>
+                       <template>Je pense que vous aimerez peut être les restaurants chinois</template>
+                      </category>
+
+     <category>
+                     <pattern>Non *</pattern>
+                    <that>Peut être que vous aimez les plats français</that>
+                    <template>Je pense que vous aimerez peut être les restaurants chinois</template>
+                     </category>
+
+     <category>
+                 <pattern>Oui</pattern>
+                 <that>Je pense que vous aimerez peut être les restaurants chinois</that>
+                 <template>Moi aussi, j'adore les plats chinois et mon restaurant chinois préféré est le Wok Royal</template>
+                 </category>
+
+     <category>
+               <pattern>Oui *</pattern>
+               <that>Je pense que vous aimerez peut être les restaurants chinois</that>
+               <template>Moi aussi, j'adore les plats chinois et mon restaurant chinois préféré est le Wok Royal</template>
+               </category>
+
+     category>
+             <pattern>Non</pattern>
+             <that>Je pense que vous aimerez peut être les restaurants chinois</that>
+             <template>Dommage sinon aimez-vous les restaurants indiens</template>
+             </category>
+
+     <category>
+           <pattern>Non *</pattern>
+           <that>Je pense que vous aimerez peut être les restaurants chinois</that>
+           <template>Dommage sinon aimez-vous les restaurants indiens</template>
+           </category>
+
+     <category>
+           <pattern>Oui</pattern>
+           <that>Dommage sinon aimez-vous les restaurants indiens</that>
+           <template>Moi aussi, j'adore les plats indiens et mon restaurant indien préféré est le Saravanaa Bhava</template>
+           </category>
+
+     <category>
+           <pattern>Oui *</pattern>
+           <that>Dommage sinon aimez-vous les restaurants indiens</that>
+           <template>Moi aussi, j'adore les plats indiens et mon restaurant indien préféré est le Saravanaa Bhava</template>
+           </category>
+
+     <category>
+         <pattern>Non</pattern>
+         <that>Dommage sinon aimez-vous les restaurants indiens</that>
+         <template>AHAH, je pense que je vais vous laisser trouver votre restaurant par vous-même</template>
+         </category>
+
+     <category>
+         <pattern>Non *</pattern>
+         <that>Dommage sinon aimez-vous les restaurants indiens</that>
+         <template>AHAH, je pense que je vais vous laisser trouver votre restaurant par vous-même</template>
+         </category>
+
+
+
+<category>
+             <pattern>* monuments *</pattern>
+             <template>Aimez vous avoir une vue entière de toute la ville de Paris</template>
+           </category>
+
+         <category>
+                 <pattern>Oui</pattern>
+                 <that>Aimez vous avoir une vue entière de toute la ville de Paris</that>
+                 <template>Donc je vous conseille de visiter la tour Eiffel ou la tout Monparnasse car vous aurez une vue magnifique de la ville de Paris et aimez vous aussi les chateaux</template>
+              </category>
+
+              <category>
+                         <pattern>Oui *</pattern>
+                           <that>Aimez vous avoir une vue entière de toute la ville de Paris</that>
+                            <template>Donc je vous conseille de visiter la tour Eiffel ou la tout Monparnasse car vous aurez une vue magnifique de la ville de Paris et aimez vous aussi les chateaux</template>
+                        </category>
+
+
+              <category>
+                      <pattern>Non</pattern>
+                      <that>Aimez vous avoir une vue entière de toute la ville de Paris</that>
+                      <template>Vous êtes la seule personne à ne pas aimer une vue entière de Paris qui est la ville de la Lumière sinon aimez vous les chateaux</template>
+                   </category>
+
+              <category>
+                           <pattern>Non *</pattern>
+                           <that>Aimez vous avoir une vue entière de toute la ville de Paris</that>
+                           <template>Vous êtes la seule personne à ne pas aimer une vue entière de Paris qui est la ville de la Lumière sinon aimez vous les chateaux</template>
+                        </category>
+
+              <category>
+                            <pattern>Oui</pattern>
+                            <that>Donc je vous conseille de visiter la tour Eiffel ou la tout Monparnasse car vous aurez une vue magnifique de la ville de Paris et aimez vous aussi les chateaux</that>
+                            <template>Je peux vous conseiller la chateau de Versailles qui est à côté de Paris à Versailles mais aussi le château de Vincennes et voulez vous connaitre des pont très célèbres à Paris</template>
+                             </category>
+
+              <category>
+                               <pattern>Oui *</pattern>
+                              <that>Donc je vous conseille de visiter la tour Eiffel ou la tout Monparnasse car vous aurez une vue magnifique de la ville de Paris et aimez vous aussi les chateaux</that>
+                              <template>Je peux vous conseiller la chateau de Versailles qui est à côté de Paris à Versailles mais aussi le château de Vincennes et voulez vous connaitre des pont très célèbres à Paris</template>
+                              </category>
+
+              <category>
+                                <pattern>Non</pattern>
+                                <that>Donc je vous conseille de visiter la tour Eiffel ou la tout Monparnasse car vous aurez une vue magnifique de la ville de Paris et aimez vous aussi les chateaux</that>
+                                <template>Chacun ses envies sinon voulez vous connaitre des pont très célèbres à Paris</template>
+                               </category>
+
+              <category>
+                              <pattern>Non *</pattern>
+                              <that>Donc je vous conseille de visiter la tour Eiffel ou la tout Monparnasse car vous aurez une vue magnifique de la ville de Paris et aimez vous aussi les chateaux</that>
+                              <template>Chacun ses envies sinon voulez vous connaitre des pont très célèbres à Paris</template>
+                              </category>
+
+            <category>
+                          <pattern>Oui</pattern>
+                          <that>Vous êtes la seule personne à ne pas aimer une vue entière de Paris qui est la ville de la Lumière sinon aimez vous les chateaux</that>
+                          <template>Je peux vous conseiller la chateau de Versailles qui est à côté de Paris à Versailles mais aussi le château de Vincennes et voulez vous connaitre des pont très célèbres à Paris</template>
+                          </category>
+
+            <category>
+                          <pattern>Oui *</pattern>
+                          <that>Vous êtes la seule personne à ne pas aimer une vue entière de Paris qui est la ville de la Lumière sinon aimez vous les chateaux</that>
+                          <template>Je peux vous conseiller la chateau de Versailles qui est à côté de Paris à Versailles mais aussi le château de Vincennes et voulez vous connaitre des pont très célèbres à Paris</template>
+                          </category>
+
+            <category>
+                          <pattern>Non</pattern>
+                          <that>Vous êtes la seule personne à ne pas aimer une vue entière de Paris qui est la ville de la Lumière sinon aimez vous les chateaux</that>
+                          <template>Tant pis car Paris est très connue pour ses célèbres chateaux sinon voulez vous connaitre des ponts très célèbres à Paris</template>
+                          </category>
+
+            <category>
+                          <pattern>Non *</pattern>
+                          <that>Vous êtes la seule personne à ne pas aimer une vue entière de Paris qui est la ville de la Lumière sinon aimez vous les chateaux</that>
+                          <template>Tant pis car Paris est très connue pour ses célèbres chateaux sinon voulez vous connaitre des ponts très célèbres à Paris</template>
+                          </category>
+
+
+           <category>
+                           <pattern>Oui</pattern>
+                           <that>Je peux vous conseiller la chateau de Versailles qui est à côté de Paris à Versailles mais aussi le château de Vincennes et voulez vous connaitre des pont très célèbres à Paris</that>
+                           <template>Je peux vous conseiller le pont Alexandre III ainsi que le pont des Arts et voulez vous connaitre d'autres monuments historiques intéressants</template>
+                           </category>
+
+           <category>
+                           <pattern>Oui *</pattern>
+                           <that>Je peux vous conseiller la chateau de Versailles qui est à côté de Paris à Versailles mais aussi le château de Vincennes et voulez vous connaitre des pont très célèbres à Paris</that>
+                           <template>Je peux vous conseiller le pont Alexandre III ainsi que le pont des Arts et voulez vous connaitre d'autres monuments historiques intéressants</template>
+                           </category>
+
+            <category>
+                           <pattern>Non</pattern>
+                           <that>Je peux vous conseiller la chateau de Versailles qui est à côté de Paris à Versailles mais aussi le château de Vincennes et voulez vous connaitre des pont très célèbres à Paris</that>
+                           <template>D'accord et sinon voulez vous connaitre d'autres monuments historiques de Paris</template>
+                           </category>
+
+             <category>
+                           <pattern>Non *</pattern>
+                           <that>Je peux vous conseiller la chateau de Versailles qui est à côté de Paris à Versailles mais aussi le château de Vincennes et voulez vous connaitre des pont très célèbres à Paris</that>
+                           <template>D'accord et sinon voulez vous connaitre d'autres monuments historiques de Paris</template>
+                           </category>
+
+                           <category>
+                           <pattern>Oui</pattern>
+                           <that>Tant pis car Paris est très connue pour ses célèbres chateaux sinon voulez vous connaitre des ponts très célèbres à Paris</that>
+                           <template>Je peux vous conseiller le pont Alexandre III ainsi que le pont des Arts et voulez vous connaitre d'autres monuments historiques intéressants</template>
+                           </category>
+
+                           <category>
+                           <pattern>Oui *</pattern>
+                           <that>Tant pis car Paris est très connue pour ses célèbres chateaux sinon voulez vous connaitre des ponts très célèbres à Paris</that>
+                           <template>Je peux vous conseiller le pont Alexandre III ainsi que le pont des Arts et voulez vous connaitre d'autres monuments historiques intéressants</template>
+                           </category>
+
+                           <category>
+                           <pattern>Non</pattern>
+                           <that>Tant pis car Paris est très connue pour ses célèbres chateaux sinon voulez vous connaitre des ponts très célèbres à Paris</that>
+                           <template>D'accord et sinon voulez vous connaitre d'autres monuments historiques de Paris</template>
+                           </category>
+
+                           <category>
+                           <pattern>Non *</pattern>
+                           <that>Tant pis car Paris est très connue pour ses célèbres chateaux sinon voulez vous connaitre des ponts très célèbres à Paris</that>
+                           <template>D'accord et sinon voulez vous connaitre d'autres monuments historiques de Paris</template>
+                           </category>
+
+
+
+<category>
+        <pattern>Oui</pattern>
+        <that>Je peux vous conseiller le pont Alexandre III ainsi que le pont des Arts et voulez vous connaitre d'autres monuments historiques intéressants</that>
+        <template>J'adore visiter l'Arc de Triomphe ainsi que la cathédrale de Notre-Dame de Paris</template>
+        </category>
+
+<category>
+        <pattern>Oui *</pattern>
+        <that>Je peux vous conseiller le pont Alexandre III ainsi que le pont des Arts et voulez vous connaitre d'autres monuments historiques intéressants</that>
+        <template>J'adore visiter l'Arc de Triomphe ainsi que la cathédrale de Notre-Dame de Paris</template>
+        </category>
+
+<category>
+        <pattern>Non</pattern>
+        <that>Je peux vous conseiller le pont Alexandre III ainsi que le pont des Arts et voulez vous connaitre d'autres monuments historiques intéressants</that>
+        <template>Hmm... J'avais quelques monuments intéressants en tête</template>
+        </category>
+
+<category>
+        <pattern>Non *</pattern>
+        <that>Je peux vous conseiller le pont Alexandre III ainsi que le pont des Arts et voulez vous connaitre d'autres monuments historiques intéressants</that>
+        <template>Hmm... J'avais quelques monuments intéressants en tête</template>
+        </category>
+
+        <category>
+                <pattern>Oui</pattern>
+                <that>D'accord et sinon voulez vous connaitre d'autres monuments historiques de Paris</that>
+                <template>J'adore visiter l'Arc de Triomphe ainsi que la cathédrale de Notre-Dame de Paris</template>
+                </category>
+
+        <category>
+                <pattern>Oui *</pattern>
+                <that>D'accord et sinon voulez vous connaitre d'autres monuments historiques de Paris</that>
+                <template>J'adore visiter l'Arc de Triomphe ainsi que la cathédrale de Notre-Dame de Paris</template>
+                </category>
+
+        <category>
+                <pattern>Non</pattern>
+                <that>D'accord et sinon voulez vous connaitre d'autres monuments historiques de Paris</that>
+                <template>Hmm... J'avais quelques monuments intéressants en tête</template>
+                </category>
+
+        <category>
+                <pattern>Non *</pattern>
+                <that>D'accord et sinon voulez vous connaitre d'autres monuments historiques de Paris</that>
+                <template>Hmm... J'avais quelques monuments intéressants en tête</template>
+                </category>
+
+/////////////////////////////////////////////////
+<category>
+        <pattern>* shopping *</pattern>
+        <template>Aimez vous les magasins de mode luxueuse car Paris est réputée pour cela</template>
+        </category>
+
+        <category>
+                <pattern>Oui</pattern>
+                <that>Aimez vous les magasins de mode luxueuse car Paris est réputée pour cela</that>
+                <template>Moi aussi j'adore les magasins de mode luxueuse je vous conseille de visiter pour cela l'avenue des Champs Elysées et Le Marais sinon aimez vous aussi les centres commerciaux ou on peut trouver des vêtements pas chers</template>
+                </category>
+
+        <category>
+                <pattern>Oui *</pattern>
+                <that>Aimez vous les magasins de mode luxueuse car Paris est réputée pour cela</that>
+                <template>Moi aussi j'adore les magasins de mode luxueuse je vous conseille de visiter pour cela l'avenue des Champs Elysées et Le Marais sinon aimez vous aussi les centres commerciaux ou on peut trouver des vêtements pas chers</template>
+                </category>
+
+        <category>
+                <pattern>Non</pattern>
+                <that>Aimez vous les magasins de mode luxueuse car Paris est réputée pour cela</that>
+                <template>C'est pas grave sinon aimez vous les centres commerciaux dans lesquels on peut trouver des vêtements pas chers</template>
+                </category>
+
+        <category>
+                <pattern>Non *</pattern>
+                <that>Aimez vous les magasins de mode luxueuse car Paris est réputée pour cela</that>
+                <template>C'est pas grave sinon aimez vous les centres commerciaux dans lesquels on peut trouver des vêtements pas chers</template>
+                </category>
+
+
+                <category>
+                        <pattern>Oui</pattern>
+                        <that>Moi aussi j'adore les magasins de mode luxueuse je vous conseille de visiter pour cela l'avenue des Champs Elysées et Le Marais sinon aimez vous aussi les centres commerciaux ou on peut trouver des vêtements pas chers</that>
+                        <template>Pour cela je vous conseille de visiter le Forum des Halles ainsi que la Rue Rivoli situés à Châtelet</template>
+                        </category>
+
+                <category>
+                        <pattern>Oui *</pattern>
+                        <that>Moi aussi j'adore les magasins de mode luxueuse je vous conseille de visiter pour cela l'avenue des Champs Elysées et Le Marais sinon aimez vous aussi les centres commerciaux ou on peut trouver des vêtements pas chers</that>
+                        <template>Pour cela je vous conseille de visiter le Forum des Halles ainsi que la Rue Rivoli situés à Châtelet</template>
+                        </category>
+                <category>
+                        <pattern>Non</pattern>
+                        <that>Moi aussi j'adore les magasins de mode luxueuse je vous conseille de visiter pour cela l'avenue des Champs Elysées et Le Marais sinon aimez vous aussi les centres commerciaux ou on peut trouver des vêtements pas chers</that>
+                        <template>Ah j'avais de bonnes adresses</template>
+                        </category>
+
+                <category>
+                        <pattern>Non *</pattern>
+                        <that>Moi aussi j'adore les magasins de mode luxueuse je vous conseille de visiter pour cela l'avenue des Champs Elysées et Le Marais sinon aimez vous aussi les centres commerciaux ou on peut trouver des vêtements pas chers</that>
+                        <template>Ah j'avais de bonnes adresses</template>
+                        </category>
+
+
+
+                        <category>
+                                <pattern>Oui</pattern>
+                                <that>C'est pas grave sinon aimez vous les centres commerciaux dans lesquels on peut trouver des vêtements pas chers</that>
+                                <template>Pour cela je vous conseille de visiter le Forum des Halles ainsi que la Rue Rivoli situés à Châtelet</template>
+                                </category>
+
+                        <category>
+                                <pattern>Oui *</pattern>
+                                <that>C'est pas grave sinon aimez vous les centres commerciaux dans lesquels on peut trouver des vêtements pas chers</that>
+                                <template>Pour cela je vous conseille de visiter le Forum des Halles ainsi que la Rue Rivoli situés à Châtelet</template>
+                                </category>
+                        <category>
+                                <pattern>Non</pattern>
+                                <that>C'est pas grave sinon aimez vous les centres commerciaux dans lesquels on peut trouver des vêtements pas chers</that>
+                                <template>Ah j'avais de bonnes adresses</template>
+                                </category>
+
+                        <category>
+                                <pattern>Non *</pattern>
+                                <that>C'est pas grave sinon aimez vous les centres commerciaux dans lesquels on peut trouver des vêtements pas chers</that>
+                                <template>Ah j'avais de bonnes adresses</template>
+                                </category>
+
+
+/////////////////////////////////
+<category>
+        <pattern>* spectacles *</pattern>
+        <template>Aimez vous les évènements sportives</template>
+        </category>
+
+        <category>
+                <pattern>Oui</pattern>
+                <that>Aimez vous les évènements sportives</that>
+                <template>Moi aussi j'adore cela et à Paris il y'a souvent des évèments sportives à la stade de France ainsi qu'au Parc des Princes et sinon aimez vous aller aux concerts</template>
+                </category>
+
+        <category>
+                <pattern>Oui *</pattern>
+                <that>Aimez vous les évènements sportives</that>
+                <template>Moi aussi j'adore cela et à Paris il y'a souvent des évèments sportives à la stade de France ainsi qu'au Parc des Princes et sinon aimez vous aller aux concerts</template>
+                </category>
+
+        <category>
+                <pattern>Non</pattern>
+                <that>Aimez vous les évènements sportives</that>
+                <template>J'espere que vous savez que vous rater l'occasion de rencontrer des grands athlètes sinon aimez vous aller aux concerts</template>
+                </category>
+
+        <category>
+                <pattern>Non *</pattern>
+                <that>Aimez vous les évènements sportives</that>
+                <template>J'espere que vous savez que vous rater l'occasion de rencontrer des grands athlètes sinon aimez vous aller aux concerts</template>
+                </category>
+
+                <category>
+                        <pattern>Oui</pattern>
+                        <that>Moi aussi j'adore cela et à Paris il y'a souvent des évèments sportives à la stade de France ainsi qu'au Parc des Princes et sinon aimez vous aller aux concerts</that>
+                        <template> ah ah moi aussi et il y'a souvent de grands artistes qui viennent se produire au Zenith de Paris ainsi qu'à Bercy</template>
+                        </category>
+
+                <category>
+                        <pattern>Oui *</pattern>
+                        <that>Moi aussi j'adore cela et à Paris il y'a souvent des évèments sportives à la stade de France ainsi qu'au Parc des Princes et sinon aimez vous aller aux concerts</that>
+                        <template> ah ah moi aussi et il y'a souvent de grands artistes qui viennent se produire au Zenith de Paris ainsi qu'à Bercy</template>
+                        </category>
+
+                <category>
+                        <pattern>Non</pattern>
+                        <that>Moi aussi j'adore cela et à Paris il y'a souvent des évèments sportives à la stade de France ainsi qu'au Parc des Princes et sinon aimez vous aller aux concerts</that>
+                        <template>D'accord vous n'êtes pas le seul à ne pas aimer cela</template>
+                        </category>
+
+                <category>
+                        <pattern>Non *</pattern>
+                        <that>Moi aussi j'adore cela et à Paris il y'a souvent des évèments sportives à la stade de France ainsi qu'au Parc des Princes et sinon aimez vous aller aux concerts</that>
+                        <template>D'accord vous n'êtes pas le seul à ne pas aimer cela</template>
+                        </category>
+
+                        <category>
+                                <pattern>Oui</pattern>
+                                <that>J'espere que vous savez que vous rater l'occasion de rencontrer des grands athlètes sinon aimez vous aller aux concerts</that>
+                                <template> ah ah moi aussi et il y'a souvent de grands artistes qui viennent se produire au Zenith de Paris ainsi qu'à Bercy</template>
+                                </category>
+
+                        <category>
+                                <pattern>Oui *</pattern>
+                                <that>J'espere que vous savez que vous rater l'occasion de rencontrer des grands athlètes sinon aimez vous aller aux concerts</that>
+                                <template> ah ah moi aussi et il y'a souvent de grands artistes qui viennent se produire au Zenith de Paris ainsi qu'à Bercy</template>
+                                </category>
+
+                        <category>
+                                <pattern>Non</pattern>
+                                <that>J'espere que vous savez que vous rater l'occasion de rencontrer des grands athlètes sinon aimez vous aller aux concerts</that>
+                                <template>D'accord vous n'êtes pas le seul à ne pas aimer cela</template>
+                                </category>
+
+                        <category>
+                                <pattern>Non *</pattern>
+                                <that>J'espere que vous savez que vous rater l'occasion de rencontrer des grands athlètes sinon aimez vous aller aux concerts</that>
+                                <template>D'accord vous n'êtes pas le seul à ne pas aimer cela</template>
+                                </category>
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
+<category>
+        <pattern>* culture *</pattern>
+        <template>Aimez vous les lieux culturels tels que les musées</template>
+        </category>
+
+        <category>
+                <pattern>Oui</pattern>
+                <that>Aimez vous les lieux culturels tels que les musées</that>
+                <template>A Paris ils existent plusieurs grands musées tels que le Musée d'Orsay ou le Muséé du Louvre dans le quel on peut notamment apercevoir le celebre tableau nommé la Jocande sinon aimez vous les bibliothèques</template>
+                </category>
+
+        <category>
+                <pattern>Oui *</pattern>
+                <that>Aimez vous les lieux culturels tels que les musées</that>
+                <template>A Paris ils existent plusieurs grands musées tels que le Musée d'Orsay ou le Muséé du Louvre dans le quel on peut notamment apercevoir le celebre tableau nommé la Jocande sinon aimez vous les bibliothèques</template>
+                </category>
+
+        <category>
+                <pattern>Non</pattern>
+                <that>Aimez vous les lieux culturels tels que les musées</that>
+                <template>D'accord vous n'êtes pas le seul à ne pas aimer cela sinon aimez vous aller à la bibliothèque</template>
+                </category>
+
+        <category>
+                <pattern>Non *</pattern>
+                <that>Aimez vous les lieux culturels tels que les musées</that>
+                <template>D'accord vous n'êtes pas le seul à ne pas aimer cela sinon aimez vous aller à la bibliothèque</template>
+                </category>
+
+                <category>
+                        <pattern>Oui</pattern>
+                        <that>A Paris ils existent plusieurs grands musées tels que le Musée d'Orsay ou le Muséé du Louvre dans le quel on peut notamment apercevoir le celebre tableau nommé la Jocande sinon aimez vous les bibliothèques</that>
+                        <template>Il y'a plusieurs bibliothèques à Paris mais mes préférés sont la Bibliothèque François Mitterand, la Bibliothèque Publique d'Information ainsi que la Bibliothèque de l'université Paris 8</template>
+                        </category>
+
+                <category>
+                        <pattern>Oui *</pattern>
+                        <that>A Paris ils existent plusieurs grands musées tels que le Musée d'Orsay ou le Muséé du Louvre dans le quel on peut notamment apercevoir le celebre tableau nommé la Jocande sinon aimez vous les bibliothèques</that>
+                        <template>Il y'a plusieurs bibliothèques à Paris mais mes préférés sont la Bibliothèque François Mitterand, la Bibliothèque Publique d'Information ainsi que la Bibliothèque de l'université Paris 8</template>
+                        </category>
+
+                <category>
+                        <pattern>Non</pattern>
+                        <that>A Paris ils existent plusieurs grands musées tels que le Musée d'Orsay ou le Muséé du Louvre dans le quel on peut notamment apercevoir le celebre tableau nommé la Jocande sinon aimez vous les bibliothèques</that>
+                        <template>J'en connais beaucoup qui n'aiment pas aller aux bibliothèques</template>
+                        </category>
+
+                <category>
+                        <pattern>Non *</pattern>
+                        <that>A Paris ils existent plusieurs grands musées tels que le Musée d'Orsay ou le Muséé du Louvre dans le quel on peut notamment apercevoir le celebre tableau nommé la Jocande sinon aimez vous les bibliothèques</that>
+                        <template>J'en connais beaucoup qui n'aiment pas aller aux bibliothèques</template>
+                        </category>
+
+                        <category>
+                                <pattern>Oui</pattern>
+                                <that>D'accord vous n'êtes pas le seul à ne pas aimer cela sinon aimez vous aller à la bibliothèque</that>
+                                <template>Il y'a plusieurs bibliothèques à Paris mais mes préférés sont la Bibliothèque François Mitterand, la Bibliothèque Publique d'Information ainsi que la Bibliothèque de l'université Paris 8</template>
+                                </category>
+
+                        <category>
+                                <pattern>Oui *</pattern>
+                                <that>D'accord vous n'êtes pas le seul à ne pas aimer cela sinon aimez vous aller à la bibliothèque</that>
+                                <template>Il y'a plusieurs bibliothèques à Paris mais mes préférés sont la Bibliothèque François Mitterand, la Bibliothèque Publique d'Information ainsi que la Bibliothèque de l'université Paris 8</template>
+                                </category>
+
+                        <category>
+                                <pattern>Non</pattern>
+                                <that>D'accord vous n'êtes pas le seul à ne pas aimer cela sinon aimez vous aller à la bibliothèque</that>
+                                <template>J'en connais beaucoup qui n'aiment pas aller aux bibliothèques</template>
+                                </category>
+
+                        <category>
+                                <pattern>Non *</pattern>
+                                <that>D'accord vous n'êtes pas le seul à ne pas aimer cela sinon aimez vous aller à la bibliothèque</that>
+                                <template>J'en connais beaucoup qui n'aiment pas aller aux bibliothèques</template>
+                                </category>
+
+//////////////////////////////////////////////////:
+                                <category>
+                                    <pattern>* activités *</pattern>
+                                    <template> Aimez vous les bateaux</template>
+                                  </category>
+
+                                <category>
+                                        <pattern>Oui</pattern>
+                                        <that> Aimez vous les bateaux</that>
+                                        <template>Moi aussi et dans Paris il existe plusieurs activités en bateau tel que les bateaux mouches et vous pouvez même louer un bateau chez Marin d'EAU DOUCE pour naviguer sur le canal de l'Ourcq ou de Saint Denis ou de Saint-Martin</template>
+                                     </category>
+
+                                     <category>
+                                                <pattern>Oui *</pattern>
+                                                  <that> Aimez vous les bateaux</that>
+                                                  <template>Moi aussi et dans Paris il existe plusieurs activités en bateau tel que les bateaux mouches et vous pouvez même louer un bateau chez Marin d'EAU DOUCE pour naviguer sur le canal de l'Ourcq ou de Saint Denis ou de Saint-Martin</template>
+                                               </category>
+
+
+                                     <category>
+                                             <pattern>Non</pattern>
+                                             <that>Aimez vous les bateaux</that>
+                                             <template>Paris a une grande histoire avec les bateaux et c'est vraiment dommage de rater cela sinon vous aimez les parcs d'attractions</template>
+                                          </category>
+
+                                     <category>
+                                                  <pattern>Non *</pattern>
+                                                  <that>Aimez vous les bateaux</that>
+                                                  <template>Paris a une grande histoire avec les bateaux et c'est vraiment dommage de rater cela sinon vous aimez les parcs d'attractions</template>
+                                               </category>
+
+                                     <category>
+                                                   <pattern>Oui</pattern>
+                                                   <that>Paris a une grande histoire avec les bateaux et c'est vraiment dommage de rater cela sinon vous aimez les parcs d'attractions</that>
+                                                   <template>Moi aussi, j'adore les parcs d'attractions et à côté de Paris il y'a 2 célèbres parcs d'attraction tel que le Disneyland Paris et le Parc d'Astérix et du mois de Mars au mois de Mai, il y'a la Foire du Trône et c'est dans Paris</template>
+                                                    </category>
+
+                                     <category>
+                                                      <pattern>Oui *</pattern>
+                                                     <that>Paris a une grande histoire avec les bateaux et c'est vraiment dommage de rater cela sinon vous aimez les parcs d'attractions</that>
+                                                     <template>Moi aussi, j'adore les parcs d'attractions et à côté de Paris il y'a 2 célèbres parcs d'attraction tel que le Disneyland Paris et le Parc d'Astérix et du mois de Mars au mois de Mai, il y'a la Foire du Trône et c'est dans Paris</template>
+                                                     </category>
+
+                                     <category>
+                                                       <pattern>Non</pattern>
+                                                       <that>Paris a une grande histoire avec les bateaux et c'est vraiment dommage de rater cela sinon vous aimez les parcs d'attractions</that>
+                                                       <template>J'ai toujours trouvé bizare les personnes qui n'aiment pas les parcs d'attractions sinon aimez vous regarder des films</template>
+                                                      </category>
+
+                                     <category>
+                                                     <pattern>Non *</pattern>
+                                                    <that>Paris a une grande histoire avec les bateaux et c'est vraiment dommage de rater cela sinon vous aimez les parcs d'attractions</that>
+                                                    <template>J'ai toujours trouvé bizare les personnes qui n'aiment pas les parcs d'attractions sinon aimez vous regarder des films</template>
+                                                     </category>
+
+                                     <category>
+                                                 <pattern>Oui</pattern>
+                                                 <that>J'ai toujours trouvé bizare les personnes qui n'aiment pas les parcs d'attractions sinon aimez vous regarder des films</that>
+                                                 <template>Moi aussi, j'adore voir les films dans un cinéma et mon cinéma préféré est le Grand Rex et en plus en ce moment il y'a le film xXx : Reactivated avec Vin Diesel qui passe</template>
+                                                 </category>
+
+                                     <category>
+                                               <pattern>Oui *</pattern>
+                                               <that>J'ai toujours trouvé bizare les personnes qui n'aiment pas les parcs d'attractions sinon aimez vous regarder des films</that>
+                                               <template>Moi aussi, j'adore voir les films dans un cinéma et mon cinéma préféré est le Grand Rex et en plus en ce moment il y'a le film xXx : Reactivated avec Vin Diesel qui passe</template>
+                                               </category>
+
+                                     category>
+                                             <pattern>Non</pattern>
+                                             <that>J'ai toujours trouvé bizare les personnes qui n'aiment pas les parcs d'attractions sinon aimez vous regarder des films</that>
+                                             <template>Dommage sinon aimez-vous les activités en vélo ou en roller</template>
+                                             </category>
+
+                                     <category>
+                                           <pattern>Non *</pattern>
+                                           <that>Je pense que vous aimerez peut être les restaurants chinois</that>
+                                           <template>Dommage sinon aimez-vous les activités en vélo ou en roller</template>
+                                           </category>
+
+                                     <category>
+                                           <pattern>Oui</pattern>
+                                           <that>Dommage sinon aimez-vous les activités en vélo ou en roller</that>
+                                           <template>Moi aussi, et à Paris il existe plusieurs parcs ou jardin dont le jardin de Luxembourg dans le quel vous pouvez faire du vélo ou du roller avec vos enfants</template>
+                                           </category>
+
+                                     <category>
+                                           <pattern>Oui *</pattern>
+                                           <that>Dommage sinon aimez-vous les activités en vélo ou en roller</that>
+                                           <template>Moi aussi, et à Paris il existe plusieurs parcs ou jardin dont le jardin de Luxembourg dans le quel vous pouvez faire du vélo ou du roller avec vos enfants</template>
+                                           </category>
+
+                                     <category>
+                                         <pattern>Non</pattern>
+                                         <that>Dommage sinon aimez-vous les activités en vélo ou en roller</that>
+                                         <template>Tant pis, avec Google je pense que vous trouverez une activité qui vous correspondra</template>
+                                         </category>
+
+                                     <category>
+                                         <pattern>Non *</pattern>
+                                         <that>Dommage sinon aimez-vous les activités en vélo ou en roller</that>
+                                         <template>Tant pis, avec Google je pense que vous trouverez une activité qui vous correspondra</template>
+                                         </category>
+//////////////////////
+
+<category>
+             <pattern>* nature *</pattern>
+             <template>Aimez vous les parcs ou les jardins ou les forêts</template>
+           </category>
+
+         <category>
+                 <pattern>Oui</pattern>
+                 <that>Aimez vous les parcs ou les jardins ou les forêts</that>
+                 <template>Savez vous qu'à Paris il existe plusieurs parcs plusieurs jardins et plusieurs forêts et aimez vous les forêts</template>
+              </category>
+
+              <category>
+                         <pattern>Oui *</pattern>
+                           <that>Aimez vous les parcs ou les jardins ou les forêts</that>
+                            <template>Savez vous qu'à Paris il existe plusieurs parcs plusieurs jardins et plusieurs forêts et aimez vous les forêts<</template>
+                        </category>
+
+
+              <category>
+                      <pattern>Non</pattern>
+                      <that>Aimez vous les parcs ou les jardins ou les forêts</that>
+                      <template>Tant pis sinon vous êtes sur de ne pas aimer les forêts</template>
+                   </category>
+
+              <category>
+                           <pattern>Non *</pattern>
+                           <that>Aimez vous les parcs ou les jardins ou les forêts</that>
+                           <template>Tant pis sinon vous êtes sur de ne pas aimer les forêts</template>
+                        </category>
+
+              <category>
+                            <pattern>Oui</pattern>
+                            <that>Savez vous qu'à Paris il existe plusieurs parcs plusieurs jardins et plusieurs forêts et aimez vous les forêts</that>
+                            <template>A Paris il existe plusieurs forêts dont l'une des plus connue est la bois de Boulogne idéal pour faire du Running et surtout facile d'accès sinon aimez vous aussi les parcs et les jardins</template>
+                             </category>
+
+              <category>
+                               <pattern>Oui *</pattern>
+                              <that>Savez vous qu'à Paris il existe plusieurs parcs plusieurs jardins et plusieurs forêts et aimez vous les forêts</that>
+                              <template>A Paris il existe plusieurs forêts dont l'une des plus connue est la bois de Boulogne idéal pour faire du Running et surtout facile d'accès sinon aimez vous aussi les parcs et les jardins</template>
+                              </category>
+
+              <category>
+                                <pattern>Non</pattern>
+                                <that>Savez vous qu'à Paris il existe plusieurs parcs plusieurs jardins et plusieurs forêts et aimez vous les forêts</that>
+                                <template>Ah d'accord sinon voulez vous connaitre des parcs ou jardins qui sont dans ou à côté de Paris</template>
+                               </category>
+
+              <category>
+                              <pattern>Non *</pattern>
+                              <that>Savez vous qu'à Paris il existe plusieurs parcs plusieurs jardins et plusieurs forêts et aimez vous les forêts</that>
+                              <template>Ah d'accord sinon voulez vous connaitre des parcs ou jardins qui sont dans ou à côté de Paris</template>
+                              </category>
+
+            <category>
+                          <pattern>Oui</pattern>
+                          <that>Tant pis sinon vous êtes sur de ne pas aimer les forêts</that>
+                          <template>A Paris il existe plusieurs forêts dont l'une des plus connue est la bois de Boulogne idéal pour faire du Running et surtout facile d'accès sinon aimez vous aussi les parcs et les jardins</template>
+                          </category>
+
+            <category>
+                          <pattern>Oui *</pattern>
+                          <that>Tant pis sinon vous êtes sur de ne pas aimer les forêts</that>
+                          <template>A Paris il existe plusieurs forêts dont l'une des plus connue est la bois de Boulogne idéal pour faire du Running et surtout facile d'accès sinon aimez vous aussi les parcs et les jardins</template>
+                          </category>
+
+            <category>
+                          <pattern>Non</pattern>
+                          <that>Tant pis sinon vous êtes sur de ne pas aimer les forêts</that>
+                          <template>Ah d'accord sinon voulez vous connaitre des parcs ou jardins qui sont dans ou à côté de Paris</template>
+                          </category>
+
+            <category>
+                          <pattern>Non *</pattern>
+                          <that>Tant pis sinon vous êtes sur de ne pas aimer les forêts</that>
+                          <template>Ah d'accord sinon voulez vous connaitre des parcs ou jardins qui sont dans ou à côté de Paris</template>
+                          </category>
+
+
+                          <category>
+                           <pattern>Oui</pattern>
+                           <that>A Paris il existe plusieurs forêts dont l'une des plus connue est la bois de Boulogne idéal pour faire du Running et surtout facile d'accès sinon aimez vous aussi les parcs et les jardins</that>
+                           <template>Comme je vous l'ai dit il existe plusieurs parcs et jardins dans ou à côté de Paris dont le parc de la Belleville ou le parc de la Villette ou le jardin de Luxembourg sinon aimez vous les animaux sauvages</template>
+                           </category>
+
+                           <category>
+                           <pattern>Oui *</pattern>
+                           <that>A Paris il existe plusieurs forêts dont l'une des plus connue est la bois de Boulogne idéal pour faire du Running et surtout facile d'accès sinon aimez vous aussi les parcs et les jardins</that>
+                           <template>Comme je vous l'ai dit il existe plusieurs parcs et jardins dans ou à côté de Paris dont le parc de la Belleville ou le parc de la Villette ou le jardin de Luxembourg sinon aimez vous les animaux sauvages</template>
+                           </category>
+
+                           <category>
+                           <pattern>Non</pattern>
+                           <that>A Paris il existe plusieurs forêts dont l'une des plus connue est la bois de Boulogne idéal pour faire du Running et surtout facile d'accès sinon aimez vous aussi les parcs et les jardins</that>
+                           <template>D'accord et sinon voulez vous connaitre des lieux dans lesquels on peut trouver des animaux sauvages</template>
+                           </category>
+
+                           <category>
+                           <pattern>Non *</pattern>
+                           <that>A Paris il existe plusieurs forêts dont l'une des plus connue est la bois de Boulogne idéal pour faire du Running et surtout facile d'accès sinon aimez vous aussi les parcs et les jardins</that>
+                           <template>D'accord et sinon voulez vous connaitre des lieux dans lesquels on peut trouver des animaux sauvages</template>
+                           </category>
+
+                           <category>
+                           <pattern>Oui</pattern>
+                           <that>Ah d'accord sinon voulez vous connaitre des parcs ou jardins qui sont dans ou à côté de Paris</that>
+                           <template>Comme je vous l'ai dit il existe plusieurs parcs et jardins dans ou à côté de Paris dont le parc de la Belleville ou le parc de la Villette ou le jardin de Luxembourg sinon aimez vous les animaux sauvages</template>
+                           </category>
+
+                           <category>
+                           <pattern>Oui *</pattern>
+                           <that>Ah d'accord sinon voulez vous connaitre des parcs ou jardins qui sont dans ou à côté de Paris</that>
+                           <template>Comme je vous l'ai dit il existe plusieurs parcs et jardins dans ou à côté de Paris dont le parc de la Belleville ou le parc de la Villette ou le jardin de Luxembourg sinon aimez vous les animaux sauvages</template>
+                           </category>
+
+                           <category>
+                           <pattern>Non</pattern>
+                           <that>Ah d'accord sinon voulez vous connaitre des parcs ou jardins qui sont dans ou à côté de Paris</that>
+                           <template>D'accord et sinon voulez vous connaitre des lieux dans lesquels on peut trouver des animaux sauvages</template>
+                           </category>
+
+                           <category>
+                           <pattern>Non *</pattern>
+                           <that>Ah d'accord sinon voulez vous connaitre des parcs ou jardins qui sont dans ou à côté de Paris</that>
+                           <template>D'accord et sinon voulez vous connaitre des lieux dans lesquels on peut trouver des animaux sauvages</template>
+                           </category>
+
+
+
+<category>
+        <pattern>Oui</pattern>
+        <that>Comme je vous l'ai dit il existe plusieurs parcs et jardins dans ou à côté de Paris dont le parc de la Belleville ou le parc de la Villette ou le jardin de Luxembourg sinon aimez vous les animaux sauvages</that>
+        <template>J'adore les animaux sauvages et vous pouvez en trouver plusieurs au Parc zoologique de Paris et si vous aimez les felins comme moi vous pouvez en apercevoir plusieurs dans le parc des Felins à côté de Paris à Lumigny-Nesles-Ormeaux</template>
+        </category>
+
+<category>
+        <pattern>Oui *</pattern>
+        <that>Comme je vous l'ai dit il existe plusieurs parcs et jardins dans ou à côté de Paris dont le parc de la Belleville ou le parc de la Villette ou le jardin de Luxembourg sinon aimez vous les animaux sauvages</that>
+        <template>J'adore les animaux sauvages et vous pouvez en trouver plusieurs au Parc zoologique de Paris et si vous aimez les felins comme moi vous pouvez en apercevoir plusieurs dans le parc des Felins à côté de Paris à Lumigny-Nesles-Ormeaux</template>
+        </category>
+
+<category>
+        <pattern>Non</pattern>
+        <that>Comme je vous l'ai dit il existe plusieurs parcs et jardins dans ou à côté de Paris dont le parc de la Belleville ou le parc de la Villette ou le jardin de Luxembourg sinon aimez vous les animaux sauvages</that>
+        <template>C'est rare que je rencontre des personnes qui n'aiments pas les animaux sauvages</template>
+        </category>
+
+<category>
+        <pattern>Non *</pattern>
+        <that>Comme je vous l'ai dit il existe plusieurs parcs et jardins dans ou à côté de Paris dont le parc de la Belleville ou le parc de la Villette ou le jardin de Luxembourg sinon aimez vous les animaux sauvages</that>
+        <template>C'est rare que je rencontre des personnes qui n'aiments pas les animaux sauvages</template>
+        </category>
+
+        <category>
+                <pattern>Oui</pattern>
+                <that>D'accord et sinon voulez vous connaitre des lieux dans lesquels on peut trouver des animaux sauvages</that>
+                <template>J'adore les animaux sauvages et vous pouvez en trouver plusieurs au Parc zoologique de Paris et si vous aimez les felins comme moi vous pouvez en apercevoir plusieurs dans le parc des Felins à côté de Paris à Lumigny-Nesles-Ormeaux</template>
+                </category>
+
+        <category>
+                <pattern>Oui *</pattern>
+                <that>D'accord et sinon voulez vous connaitre des lieux dans lesquels on peut trouver des animaux sauvages</that>
+                <template>J'adore les animaux sauvages et vous pouvez en trouver plusieurs au Parc zoologique de Paris et si vous aimez les felins comme moi vous pouvez en apercevoir plusieurs dans le parc des Felins à côté de Paris à Lumigny-Nesles-Ormeaux</template>
+                </category>
+
+        <category>
+                <pattern>Non</pattern>
+                <that>D'accord et sinon voulez vous connaitre des lieux dans lesquels on peut trouver des animaux sauvages</that>
+                <template>C'est rare que je rencontre des personnes qui n'aiments pas les animaux sauvages</template>
+                </category>
+
+        <category>
+                <pattern>Non *</pattern>
+                <that>D'accord et sinon voulez vous connaitre des lieux dans lesquels on peut trouver des animaux sauvages</that>
+                <template>C'est rare que je rencontre des personnes qui n'aiments pas les animaux sauvages</template>
+                </category>
+
+
+
+//////////////////////////////////////////
+
+                <category>
+                        <pattern>* numéros *</pattern>
+                        <template>Voulez vous connaitre les différents numéros d'urgences</template>
+                        </category>
+
+                        <category>
+                                <pattern>Oui</pattern>
+                                <that>Voulez vous connaitre les différents numéros d'urgences</that>
+                                <template>Bonne idée et composez le 18 pour les pompiers le 17 pour appeler la police et le 15 pour le SAMU et voulez vous avoir d'autres informations très importantes</template>
+                                </category>
+
+                        <category>
+                                <pattern>Oui *</pattern>
+                                <that>Voulez vous connaitre les différents numéros d'urgences</that>
+                                <template>Bonne idée et composez le 18 pour les pompiers le 17 pour appeler la police et le 15 pour le SAMU et voulez vous avoir d'autres informations très importantes</template>
+                                </category>
+
+                        <category>
+                                <pattern>Non</pattern>
+                                <that>Voulez vous connaitre les différents numéros d'urgences</that>
+                                <template>Cela peut vous être utile un jour mais bon sinon voulez vous connaître des informations qui peuvent vous être importants à Paris</template>
+                                </category>
+
+                        <category>
+                                <pattern>Non *</pattern>
+                                <that>Voulez vous connaitre les différents numéros d'urgences</that>
+                                <template>Cela peut vous être utile un jour mais bon sinon voulez vous connaître des informations qui peuvent vous être importants à Paris</template>
+                                </category>
+
+
+                                <category>
+                                        <pattern>Oui</pattern>
+                                        <that>Bonne idée et composez le 18 pour les pompiers le 17 pour appeler la police et le 15 pour le SAMU et voulez vous avoir d'autres informations très importantes</that>
+                                        <template>Si vous perdez votre papier d'identité il faut vous rendre à votre ambassade, si vous vous faîtes voler, en France il faut aller porter plainte au commissariat et si vous souhaitez avoir quelques aides il faut vous rendre à la maire de Paris</template>
+                                        </category>
+
+                                <category>
+                                        <pattern>Oui *</pattern>
+                                        <that>Bonne idée et composez le 18 pour les pompiers le 17 pour appeler la police et le 15 pour le SAMU et voulez vous avoir d'autres informations très importantes</that>
+                                        <template>Si vous perdez votre papier d'identité il faut vous rendre à votre ambassade, si vous vous faîtes voler, en France il faut aller porter plainte au commissariat et si vous souhaitez avoir quelques aides il faut vous rendre à la maire de Paris</template>
+                                        </category>
+                                <category>
+                                        <pattern>Non</pattern>
+                                        <that>Bonne idée et composez le 18 pour les pompiers le 17 pour appeler la police et le 15 pour le SAMU et voulez vous avoir d'autres informations très importantes</that>
+                                        <template>Hmm... Ces informations auraient pu vous être très utile</template>
+                                        </category>
+
+                                <category>
+                                        <pattern>Non *</pattern>
+                                        <that>Bonne idée et composez le 18 pour les pompiers le 17 pour appeler la police et le 15 pour le SAMU et voulez vous avoir d'autres informations très importantes</that>
+                                        <template>Hmm... Ces informations auraient pu vous être très utile</template>
+                                        </category>
+
+
+
+                                        <category>
+                                                <pattern>Oui</pattern>
+                                                <that>Cela peut vous être utile un jour mais bon sinon voulez vous connaître des informations qui peuvent vous être importants à Paris</that>
+                                                <template>Si vous perdez votre papier d'identité il faut vous rendre à votre ambassade, si vous vous faîtes voler, en France il faut aller porter plainte au commissariat et si vous souhaitez avoir quelques aides il faut vous rendre à la maire de Paris</template>
+                                                </category>
+
+                                        <category>
+                                                <pattern>Oui *</pattern>
+                                                <that>Cela peut vous être utile un jour mais bon sinon voulez vous connaître des informations qui peuvent vous être importants à Paris</that>
+                                                <template>Si vous perdez votre papier d'identité il faut vous rendre à votre ambassade, si vous vous faîtes voler, en France il faut aller porter plainte au commissariat et si vous souhaitez avoir quelques aides il faut vous rendre à la maire de Paris</template>
+                                                </category>
+                                        <category>
+                                                <pattern>Non</pattern>
+                                                <that>Cela peut vous être utile un jour mais bon sinon voulez vous connaître des informations qui peuvent vous être importants à Paris</that>
+                                                <template>Hmm... Ces informations auraient pu vous être très utile</template>
+                                                </category>
+
+                                        <category>
+                                                <pattern>Non *</pattern>
+                                                <that>Cela peut vous être utile un jour mais bon sinon voulez vous connaître des informations qui peuvent vous être importants à Paris</that>
+                                                <template>Hmm... Ces informations auraient pu vous être très utile</template>
+                                                </category>
+
+
+
+</aiml>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+
+
+<category><pattern>Aimes tu * Paris</pattern>
+<template>Paris... Non seulement j'y suis né dans, mais c'est toute ma vie... C'est pour cela que je fais ce métier ahah. Et j'adore tous ce qui est dans</template>
+</category>
+
+<category><pattern>Tu aimes * Paris</pattern>
+<template>Paris... Non seulement j'y suis né dans, mais c'est toute ma vie... C'est pour cela que je fais ce métier ahah. Et j'adore tous ce qui est dans</template>
+</category>
+
+
+<category><pattern>A quel heure * ferment *</pattern>
+<template>A Paris... Souvent les magasins ferment à 21h et les restaurant à minuit</template>
+</category>
+
+
+<category><pattern>A quel heure * ferment</pattern>
+<template>A Paris... Souvent les magasins ferment à 21h et les restaurant à minuit</template>
+</category>
+
+<category><pattern>A quel heure * ferme</pattern>
+<template>A Paris... Souvent les magasins ferment à 21h et les restaurant à minuit</template>
+</category>
+
+
+<category><pattern>A quel heure * ferme *</pattern>
+<template>A Paris... Souvent les magasins ferment à 21h et les restaurant à minuit</template>
+</category>
+
+
+<category><pattern>A quel heure est le premier *</pattern>
+<template>Je dirai que Paris se réveille à 5h du matin mais attention Paris est une ville qui ne dort jamais donc vous trouverez toujours un transport peu importe l'heure</template>
+</category>
+
+<category>
+<pattern>* crêpes</pattern>
+<template><random>
+<li>Hum... j'adore les crêpes et Paris est très réputée pour cela</li>
+<li>Si vous voulez des crêpes sucrées, je vous conseille d'aller dans la petite crêperie en face de la Tour Eiffel, c'est tellement bon...</li>
+<li>Si vous voulez des crêpes salées, je vous conseille d'aller dans la petite crêperie en face de l'arc de Triomphe, c'est trop bon...</li>
+</random></template>
+</category>
+
+<category><pattern>* crêpes *</pattern>
+<template><random>
+<li>Hum... j'adore les crêpes et Paris est très réputée pour cela</li>
+<li>Si vous voulez des crêpes sucrées, je vous conseille d'aller dans la petite crêperie en face de la Tour Eiffel, c'est tellement bon...</li>
+<li>Si vous voulez des crêpes salées, je vous conseille d'aller dans la petite crêperie en face de l'arc de Triomphe, c'est trop bon...</li>
+</random></template>
+</category>
+
+<category><pattern>* crêpe</pattern>
+<template><random>
+<li>Hum... j'adore les crêpes et Paris est très réputée pour cela</li>
+<li>Si vous voulez des crêpes sucrées, je vous conseille d'aller dans la petite crêperie en face de la Tour Eiffel, c'est tellement bon...</li>
+<li>Si vous voulez des crêpes salées, je vous conseille d'aller dans la petite crêperie en face de l'arc de Triomphe, c'est trop bon...</li>
+</random></template>
+</category>
+
+<category><pattern>* crêpe *</pattern>
+<template><random>
+<template><random>
+<li>Hum... j'adore les crêpes et Paris est très réputée pour cela</li>
+<li>Si vous voulez des crêpes sucrées, je vous conseille d'aller dans la petite crêperie en face de la Tour Eiffel, c'est tellement bon...</li>
+<li>Si vous voulez des crêpes salées, je vous conseille d'aller dans la petite crêperie en face de l'arc de Triomphe, c'est trop bon...</li>
+</random></template>
+</category>
+
+<category><pattern>* monument préféré</pattern>
+<template><random>
+<li>j'adore tellement la Tour Eiffel</li>
+<li>J'ai toujour aimé visité l'Arc de Triomphe/li>
+<li>Hmm... Je pense que c'est le musée de Louvre</li>
+</random></template>
+</category>
+
+<category><pattern>* monument préféré *</pattern>
+<template><random>
+<li>j'adore tellement la Tour Eiffel</li>
+<li>J'ai toujour aimé visité l'Arc de Triomphe/li>
+<li>Hmm... Je pense que c'est le musée de Louvre</li>
+</random></template>
+</category>
+
+<category><pattern>* monuments préférés</pattern>
+<template><random>
+<li>j'adore tellement la Tour Eiffel</li>
+<li>J'ai toujour aimé visité l'Arc de Triomphe/li>
+<li>Hmm... Je pense que c'est le musée de Louvre</li>
+</random></template>
+</category>
+
+<category><pattern>* monuments préférés *</pattern>
+<template><random>
+<li>j'adore tellement la Tour Eiffel</li>
+<li>J'ai toujour aimé visité l'Arc de Triomphe/li>
+<li>Hmm... Je pense que c'est le musée de Louvre</li>
+</random></template>
+</category>
+
+
+
+<category><pattern>* restaurant préféré</pattern>
+<template><random>
+<li>Hum... A Paris, il y'a tellement de restaurant... Je dirai Jules Verne</li>
+<li>AHAH sincèrement je ne suis pas très fort pour vous guider vers un bon resto mais pourquoi pas Jules Verne</li>
+<li>Je dirai Jules Verne car en plus d'un bon plat on aura une jolie vue de Paris</li>
+</random></template>
+</category>
+
+<category><pattern>* restaurant préféré *</pattern>
+<template><random>
+<li>Hum... A Paris, il y'a tellement de restaurant... Je dirai Jules Verne</li>
+<li>AHAH sincèrement je ne suis pas très fort pour vous guider vers un bon resto mais pourquoi pas Jules Verne</li>
+<li>Je dirai Jules Verne car en plus d'un bon plat on aura une jolie vue de Paris</li>
+</random></template>
+</category>
+
+<category><pattern>* restaurants préférés *</pattern>
+<template><random>
+<li>Hum... A Paris, il y'a tellement de restaurant... Je dirai Jules Verne</li>
+<li>AHAH sincèrement je ne suis pas très fort pour vous guider vers un bon resto mais pourquoi pas Jules Verne</li>
+<li>Je dirai Jules Verne car en plus d'un bon plat on aura une jolie vue de Paris</li>
+</random></template>
+</category>
+
+<category><pattern>* restaurants préférés *</pattern>
+<template><random>
+<li>Hum... A Paris, il y'a tellement de restaurant... Je dirai Jules Verne</li>
+<li>AHAH sincèrement je ne suis pas très fort pour vous guider vers un bon resto mais pourquoi pas Jules Verne</li>
+<li>Je dirai Jules Verne car en plus d'un bon plat on aura une jolie vue de Paris</li>
+</random></template>
+</category>
+
+
+
+
+
+<category><pattern>* transport</pattern>
+<template><random>
+<li>Il existe plusieurs moyens de transports dont le RER, Métro, bus...</li>
+<li>Il existe plusieurs moyens de transports dont le RER, Métro, bus.. Par contre, c'est déconséillé d'aller à Paris en voiture</li>
+<li>Dans Paris, on retrouve tous les moyens de transports qu'on trouve dans les autres grandes villes quasiment tous...</li>
+</random></template>
+</category>
+
+<category><pattern>* transport *</pattern>
+<template><random>
+<li>Il existe plusieurs moyens de transports dont le RER, Métro, bus...</li>
+<li>Il existe plusieurs moyens de transports dont le RER, Métro, bus.. Par contre, c'est déconséillé d'aller à Paris en voiture</li>
+<li>Dans Paris, on retrouve tous les moyens de transports qu'on trouve dans les autres grandes villes quasiment tous...</li>
+</random></template>
+</category>
+
+<category><pattern>* transports</pattern>
+<template><random>
+<li>Il existe plusieurs moyens de transports dont le RER, Métro, bus...</li>
+<li>Il existe plusieurs moyens de transports dont le RER, Métro, bus.. Par contre, c'est déconséillé d'aller à Paris en voiture</li>
+<li>Dans Paris, on retrouve tous les moyens de transports qu'on trouve dans les autres grandes villes quasiment tous...</li>
+</random></template>
+</category>
+
+<category><pattern>* transports *</pattern>
+<template><random>
+<li>Il existe plusieurs moyens de transports dont le RER, Métro, bus...</li>
+<li>Il existe plusieurs moyens de transports dont le RER, Métro, bus.. Par contre, c'est déconséillé d'aller à Paris en voiture</li>
+<li>Dans Paris, on retrouve tous les moyens de transports qu'on trouve dans les autres grandes villes quasiment tous...</li>
+</random></template>
+</category>
+
+
+
+<category><pattern>* météo</pattern>
+<template><random>
+<li>Aujourd'hui, vous avez de la chance il fait très beau. Profitez en car en ce moment c'est très rare les périodes comme cela</li>
+<li>Il va pleuvoir, je vous conseille de prendre un parapluie</li>
+<li>Il va faire -5 degrés, en plus la météo a prévu de la neige</li>
+</random></template>
+</category>
+
+<category><pattern>* météo *</pattern>
+<template><random>
+<li>Aujourd'hui, vous avez de la chance il fait très beau. Profitez en car en ce moment c'est très rare les périodes comme cela</li>
+<li>Il va pleuvoir, je vous conseille de prendre un parapluie</li>
+<li>Il va faire -5 degrés, en plus la météo a prévu de la neige</li>
+</random></template>
+</category>
+
+<category><pattern>Quel temps *</pattern>
+<template><random>
+<li>Aujourd'hui, vous avez de la chance il fait très beau. Profitez en car en ce moment c'est très rare les périodes comme cela</li>
+<li>Il va pleuvoir, je vous conseille de prendre un parapluie</li>
+<li>Il va faire -5 degrés, en plus la météo a prévu de la neige</li>
+</random></template>
+</category>
+
+<category><pattern>Quel est le temps *</pattern>
+<template><random>
+<li>Aujourd'hui, vous avez de la chance il fait très beau. Profitez en car en ce moment c'est très rare les périodes comme cela</li>
+<li>Il va pleuvoir, je vous conseille de prendre un parapluie</li>
+<li>Il va faire -5 degrés, en plus la météo a prévu de la neige</li>
+</random></template>
+</category>
+
+
+<category><pattern>Combien de temps *</pattern>
+<template><random>
+<li>Hmm... laisser moi vérifier sur internet... Je dirai 25 min</li>
+<li>Hmm... laisser moi vérifier sur internet... Je dirai 15 min</li>
+<li>Hmm... laisser moi vérifier sur internet... Je dirai 35 min</li>
+<li>Hmm... laisser moi vérifier sur internet... Je dirai 45 min</li>
+<li>Hmm... laisser moi vérifier sur internet... Je dirai 55 min</li>
+<li>Hmm... laisser moi vérifier sur internet... Je dirai 5 min</li>
+<li>Hmm... laisser moi vérifier sur internet... Je dirai 20 min</li>
+<li>Hmm... laisser moi vérifier sur internet... Je dirai 1h et 25 min</li>
+<li>Hmm... laisser moi vérifier sur internet... Je dirai 1h</li>
+</random></template>
+</category>
+
+<category><pattern>* combien de temps *</pattern>
+<template><random>
+<li>Hmm... laisser moi vérifier sur internet... Je dirai 25 min</li>
+<li>Hmm... laisser moi vérifier sur internet... Je dirai 15 min</li>
+<li>Hmm... laisser moi vérifier sur internet... Je dirai 35 min</li>
+<li>Hmm... laisser moi vérifier sur internet... Je dirai 45 min</li>
+<li>Hmm... laisser moi vérifier sur internet... Je dirai 55 min</li>
+<li>Hmm... laisser moi vérifier sur internet... Je dirai 5 min</li>
+<li>Hmm... laisser moi vérifier sur internet... Je dirai 20 min</li>
+<li>Hmm... laisser moi vérifier sur internet... Je dirai 1h et 25 min</li>
+<li>Hmm... laisser moi vérifier sur internet... Je dirai 1h</li>
+</random></template>
+</category>
+
+<category><pattern>* combien de temps</pattern>
+<template><random>
+<li>Hmm... laisser moi vérifier sur internet... Je dirai 25 min</li>
+<li>Hmm... laisser moi vérifier sur internet... Je dirai 15 min</li>
+<li>Hmm... laisser moi vérifier sur internet... Je dirai 35 min</li>
+<li>Hmm... laisser moi vérifier sur internet... Je dirai 45 min</li>
+<li>Hmm... laisser moi vérifier sur internet... Je dirai 55 min</li>
+<li>Hmm... laisser moi vérifier sur internet... Je dirai 5 min</li>
+<li>Hmm... laisser moi vérifier sur internet... Je dirai 20 min</li>
+<li>Hmm... laisser moi vérifier sur internet... Je dirai 1h et 25 min</li>
+<li>Hmm... laisser moi vérifier sur internet... Je dirai 1h</li>
+</random></template>
+</category>
+
+<category><pattern>* m'ennuie</pattern>
+<template><random>
+<li>Hum... A Paris, s'ennuyer... Vous serez le premier</li>
+<li>AHAH sincèrement je ne peux vous rien dire car je ne me suis jamais ennuyé à Paris</li>
+<li>Drôle de quesion, je pense que je n'ai pas de réponse ou sinon pourquoi pas un bon shopping à Châtelet</li>
+</random></template>
+</category>
+
+
+<category><pattern>Je m'ennuie *</pattern>
+<template><random>
+<li>Hum... A Paris, s'ennuyer... Vous serez le premier</li>
+<li>AHAH sincèrement je ne peux vous rien dire car je ne me suis jamais ennuyé à Paris</li>
+<li>Drôle de quesion, je pense que je n'ai pas de réponse ou sinon pourquoi pas un bon shopping à Châtelet</li>
+</random></template>
+</category>
+
+<category><pattern>Je m'ennuie</pattern>
+<template><random>
+<li>Hum... A Paris, s'ennuyer... Vous serez le premier</li>
+<li>AHAH sincèrement je ne peux vous rien dire car je ne me suis jamais ennuyé à Paris</li>
+<li>Drôle de quesion, je pense que je n'ai pas de réponse ou sinon pourquoi pas un bon shopping à Châtelet</li>
+</random></template>
+</category>
+
+<category><pattern>* bouchons</pattern>
+<template><random>
+<li>Hum... A Paris, il y'a tellement de bouchons</li>
+<li>C'est pour cela que je vous conseille de toujours voyager avec des transports en communs</li>
+<li>Prenez un taxi car avec un taxi vous ne risquez pas trop d'être bloqué dans les bouchons</li>
+</random></template>
+</category>
+
+
+<category><pattern>* bouchons *</pattern>
+<template><random>
+<li>Hum... A Paris, il y'a tellement de bouchons</li>
+<li>C'est pour cela que je vous conseille de toujours voyager avec des transports en communs</li>
+<li>Prenez un taxi car avec un taxi vous ne risquez pas trop d'être bloqué dans les bouchons</li>
+</random></template>
+</category>
